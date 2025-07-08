@@ -1,4 +1,10 @@
 console.log("This output is from the external JS file");
-console.log("Name: Surya");
-console.log("School: Ardrey Kell High School");
-console.log("Grade: 12");
+var name ="Surya";
+let school= "Ardrey Kell High School";
+let grade = "12";
+console.log(`Name: ${name}`);
+console.log(`School: ${school}`);
+console.log(`Grade: ${grade}`);
+document.getElementById("name").innerHTML = "<b>Name: </b><i>" +name+ "</i>";
+document.getElementById("school").innerHTML = "<b>School: </b><i>" +school+ "/i?";
+document.getElementById("grade").innerHTML = "<b>Grade: </b><i>" +grade+ "</i>";
