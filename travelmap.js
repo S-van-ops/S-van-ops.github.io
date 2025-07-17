@@ -9,7 +9,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-let circleMarker01 = L.circle(center, {
+let circleMarker01 = L.circle([19.8987,-155.6659], {
   color: "black",
   fillColor: "yellow",
   fillOpacity:0.5,
