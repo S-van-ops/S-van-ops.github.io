@@ -24,7 +24,7 @@ let volcanoMarker = L.circle([19.4069, -155.2834], {
   fillColor: "red",
   fillOpacity:0.5,
   radius: 500
-}}.bindPopup("<p>Kīlauea Volcano</p>").addTo(map);
+}).bindPopup("<p>Kīlauea Volcano</p>").addTo(map);
 let honoluluMarker= L.circle([21.2793,-157.8292], {title: "Honolulu "}).bindPopup("<p>Wakiki Beach</p>").addTo(map);
 let pearlharborMarker = L.circle([21.349270, -157.943970], {title: "Pearl Harbor "}).bindPopup("<p>Pearl Harbor Naval Base </p>").addTo(map);
 
